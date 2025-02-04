@@ -1,6 +1,7 @@
 # Grammatical Path Network (GPN): You Want Cycles, Paths Is All You Need
 
-This repository contains the code for the experiments and models presented in our paper *Grammatical Path Network: You Want Cycles, Paths Is All You Need*, accepted at **LOG 2024**.  
+This repository contains the code for the experiments and models presented in our paper:  
+**Grammatical Path Network: You Want Cycles, Paths Is All You Need**, accepted at **LOG 2024**.  
 The implementation is built with **Python, PyTorch, and CUDA**.
 
 ---
@@ -10,7 +11,7 @@ The implementation is built with **Python, PyTorch, and CUDA**.
 - **Python version**: 3.8.10  
 - **PyTorch version**: 1.12.0  
 
-Ensure that PyTorch and CUDA are correctly installed before running the experiments.
+Ensure that **PyTorch and CUDA** are correctly installed before running the experiments.
 
 ---
 
@@ -53,7 +54,7 @@ python TUD_results.py
 
 ## Citation
 
-If you find this work useful in your research, please cite our paper:
+If you use this code in your research, please cite our paper:
 
 ```bibtex
 @inproceedings{piquenot2024gpn,
@@ -62,4 +63,3 @@ If you find this work useful in your research, please cite our paper:
   booktitle={Third Learning on Graphs Conference (LOG)},
   year={2024}
 }
-
