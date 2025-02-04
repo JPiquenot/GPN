@@ -54,18 +54,9 @@ relu = False
 dropout = 0.0
 normalize = False
 
-# lamda1 = .1
-# lamda2 = .1
-# lamda3 = .1
-# lamda4 = .1
-# lamda5 = .1
-# lamda6 = .1
 
-"""
-"""
 
 typ = ["triangle","4-cycle","5_cycle","6_cycle","7_cycle"]
-# select task, 0: triangle, 1: tailed_triangle 2: 4-cycle 3: trisquare  4: 5-cycle
 ntask=0
 transform = GPNdesign(operator = operator)
 
