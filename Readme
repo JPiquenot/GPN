@@ -1,5 +1,3 @@
-### **README.md**
-```markdown
 # Grammatical Path Network (GPN): You Want Cycles, Paths Is All You Need
 
 This repository contains the code for the experiments and models presented in our paper *Grammatical Path Network: You Want Cycles, Paths Is All You Need*, accepted at **LOG 2024**.  
@@ -7,7 +5,7 @@ The implementation is built with **Python, PyTorch, and CUDA**.
 
 ---
 
-## 📌 Requirements
+##  Requirements
 
 - **Python version**: 3.8.10  
 - **PyTorch version**: 1.12.0  
@@ -16,9 +14,9 @@ Ensure that PyTorch and CUDA are correctly installed before running the experime
 
 ---
 
-## 🚀 Reproducing Experiments
+##  Reproducing Experiments
 
-### **1️⃣ TUDataset Experiment**
+### **1 TUDataset Experiment**
 1. Open `TU_dataset.py`.
 2. Set the dataset name in the `Name` variable (e.g., `PROTEINS`, `IMDB-B`, `NCI1`).
 3. Run the experiment:
@@ -33,7 +31,7 @@ python TUD_results.py
 
 ---
 
-### **2️⃣ ZINC Molecular Property Prediction**
+### **2 ZINC Molecular Property Prediction**
 1. Open `zinc_dataset.py`.
 2. Set the dataset parameters in the script.
 3. Run:
@@ -43,7 +41,7 @@ python TUD_results.py
 
 ---
 
-### **3️⃣ Substructure Counting Experiment**
+### **3 Substructure Counting Experiment**
 1. Open `subgraph_counting.py`.
 2. Configure the parameters for counting paths and cycles.
 3. Run:
@@ -64,5 +62,4 @@ If you find this work useful in your research, please cite our paper:
   booktitle={Third Learning on Graphs Conference (LOG)},
   year={2024}
 }
-```
 
