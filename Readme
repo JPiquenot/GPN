@@ -21,14 +21,14 @@ Ensure that **PyTorch and CUDA** are correctly installed before running the expe
 1. Open `TU_dataset.py`.
 2. Set the dataset name in the `Name` variable (e.g., `PROTEINS`, `IMDB-B`, `NCI1`).
 3. Run the experiment:
-   '''bash
+   ```bash
    python TU_dataset.py
-   '''
+   ```
 
 To view the results:
-'''bash
+```bash
 python TUD_results.py
-'''
+```
 
 ---
 
@@ -36,9 +36,9 @@ python TUD_results.py
 1. Open `zinc_dataset.py`.
 2. Set the dataset parameters in the script.
 3. Run:
-   '''bash
+   ```bash
    python zinc_dataset.py
-   '''
+   ```
 
 ---
 
@@ -46,9 +46,9 @@ python TUD_results.py
 1. Open `subgraph_counting.py`.
 2. Configure the parameters for counting paths and cycles.
 3. Run:
-   '''bash
+   ```bash
    python subgraph_counting.py
-   '''
+   ```
 
 ---
 
@@ -56,11 +56,11 @@ python TUD_results.py
 
 If you use this code in your research, please cite our paper:
 
-'''bibtex
+```bibtex
 @inproceedings{piquenot2024gpn,
   title={Grammatical Path Network: You Want Cycles, Paths Is All You Need},
   author={Piquenot, Jason and Moscatelli, Aldo and Berar, Maxime and Héroux, Pierre and Raveaux, Romain and Adam, Sébastien},
   booktitle={Third Learning on Graphs Conference (LOG)},
   year={2024}
 }
-'''
+
