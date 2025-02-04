@@ -5,7 +5,7 @@ The implementation is built with **Python, PyTorch, and CUDA**.
 
 ---
 
-##  Requirements
+## Requirements
 
 - **Python version**: 3.8.10  
 - **PyTorch version**: 1.12.0  
@@ -14,7 +14,7 @@ Ensure that PyTorch and CUDA are correctly installed before running the experime
 
 ---
 
-##  Reproducing Experiments
+## Reproducing Experiments
 
 ### **1 TUDataset Experiment**
 1. Open `TU_dataset.py`.
